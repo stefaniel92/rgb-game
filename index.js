@@ -30,36 +30,10 @@ function init(){
 		}
 		reset();
 
-		//pick new colours
-		//pick a new pickedColor
-		//update page to reflect changes
 	});
 }
 
 }
-
-// for(var i = 0; i < modeButtons.length; i++){
-// 	modeButtons[i].addEventListener("click", function(){
-// 		modeButtons[0].classList.remove("selected");
-// 		modeButtons[1].classList.remove("selected");
-// 		modeButtons[2].classList.remove("selected");
-// 		this.classList.add("selected");
-// 		if(this.textContent == "Easy"){
-// 			numSquares = 3;
-
-// 		} else if(this.textContent == "Medium") {
-// 			numSquares = 6;
-// 		}  else if(this.textContent == "Hard") {
-// 			numSquares = 9;
-// 		}
-// 		reset();
-
-// 		//figure out how many squares to show
-// 		//pick new colours
-// 		//pick a new pickedColor
-// 		//update page to reflect changes
-// 	})
-// }
 
 
 function reset(){
